@@ -1,0 +1,982 @@
+{
+  "structureNames": [
+    "BrainStem",
+    "Chiasm",
+    "Mandible",
+    "OpticNerve_L",
+    "OpticNerve_R",
+    "Parotid_L",
+    "Parotid_R",
+    "Submandibular_L",
+    "Submandibular_R"
+  ],
+  "colorsRgb": [
+    [
+      255,
+      51,
+      51
+    ],
+    [
+      255,
+      204,
+      0
+    ],
+    [
+      51,
+      204,
+      51
+    ],
+    [
+      0,
+      153,
+      255
+    ],
+    [
+      153,
+      0,
+      255
+    ],
+    [
+      255,
+      127,
+      0
+    ],
+    [
+      255,
+      0,
+      127
+    ],
+    [
+      0,
+      204,
+      204
+    ],
+    [
+      204,
+      153,
+      51
+    ]
+  ],
+  "patients": [
+    {
+      "id": "0522c0555",
+      "gt": "pddca-viz/0522c0555/gt.png",
+      "pred": "pddca-viz/0522c0555/pred.png",
+      "fn": "pddca-viz/0522c0555/fn.png",
+      "scene3d": "pddca-viz/0522c0555/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 77.0,
+        "Chiasm": 57.8,
+        "Mandible": 90.8,
+        "OpticNerve_L": 69.3,
+        "OpticNerve_R": 60.9,
+        "Parotid_L": 80.0,
+        "Parotid_R": 78.3,
+        "Submandibular_L": 69.7,
+        "Submandibular_R": 69.1
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 77.0,
+          "gtVoxels": 11409,
+          "predVoxels": 15065,
+          "tpVoxels": 10187,
+          "fnVoxels": 1222,
+          "fpVoxels": 4878
+        },
+        "Chiasm": {
+          "dicePercent": 57.8,
+          "gtVoxels": 260,
+          "predVoxels": 456,
+          "tpVoxels": 207,
+          "fnVoxels": 53,
+          "fpVoxels": 249
+        },
+        "Mandible": {
+          "dicePercent": 90.8,
+          "gtVoxels": 39098,
+          "predVoxels": 38332,
+          "tpVoxels": 35165,
+          "fnVoxels": 3933,
+          "fpVoxels": 3167
+        },
+        "OpticNerve_L": {
+          "dicePercent": 69.3,
+          "gtVoxels": 255,
+          "predVoxels": 360,
+          "tpVoxels": 213,
+          "fnVoxels": 42,
+          "fpVoxels": 147
+        },
+        "OpticNerve_R": {
+          "dicePercent": 60.9,
+          "gtVoxels": 230,
+          "predVoxels": 424,
+          "tpVoxels": 199,
+          "fnVoxels": 31,
+          "fpVoxels": 225
+        },
+        "Parotid_L": {
+          "dicePercent": 80.0,
+          "gtVoxels": 11365,
+          "predVoxels": 12773,
+          "tpVoxels": 9657,
+          "fnVoxels": 1708,
+          "fpVoxels": 3116
+        },
+        "Parotid_R": {
+          "dicePercent": 78.3,
+          "gtVoxels": 14446,
+          "predVoxels": 15310,
+          "tpVoxels": 11648,
+          "fnVoxels": 2798,
+          "fpVoxels": 3662
+        },
+        "Submandibular_L": {
+          "dicePercent": 69.7,
+          "gtVoxels": 1544,
+          "predVoxels": 931,
+          "tpVoxels": 863,
+          "fnVoxels": 681,
+          "fpVoxels": 68
+        },
+        "Submandibular_R": {
+          "dicePercent": 69.1,
+          "gtVoxels": 1985,
+          "predVoxels": 1434,
+          "tpVoxels": 1182,
+          "fnVoxels": 803,
+          "fpVoxels": 252
+        }
+      }
+    },
+    {
+      "id": "0522c0576",
+      "gt": "pddca-viz/0522c0576/gt.png",
+      "pred": "pddca-viz/0522c0576/pred.png",
+      "fn": "pddca-viz/0522c0576/fn.png",
+      "scene3d": "pddca-viz/0522c0576/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 87.4,
+        "Chiasm": 34.9,
+        "Mandible": 86.2,
+        "OpticNerve_L": 75.0,
+        "OpticNerve_R": 70.3,
+        "Parotid_L": 81.9,
+        "Parotid_R": 82.3,
+        "Submandibular_L": 70.3,
+        "Submandibular_R": 73.8
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 87.4,
+          "gtVoxels": 9855,
+          "predVoxels": 8623,
+          "tpVoxels": 8075,
+          "fnVoxels": 1780,
+          "fpVoxels": 548
+        },
+        "Chiasm": {
+          "dicePercent": 34.9,
+          "gtVoxels": 248,
+          "predVoxels": 584,
+          "tpVoxels": 145,
+          "fnVoxels": 103,
+          "fpVoxels": 439
+        },
+        "Mandible": {
+          "dicePercent": 86.2,
+          "gtVoxels": 14592,
+          "predVoxels": 14027,
+          "tpVoxels": 12328,
+          "fnVoxels": 2264,
+          "fpVoxels": 1699
+        },
+        "OpticNerve_L": {
+          "dicePercent": 75.0,
+          "gtVoxels": 227,
+          "predVoxels": 320,
+          "tpVoxels": 205,
+          "fnVoxels": 22,
+          "fpVoxels": 115
+        },
+        "OpticNerve_R": {
+          "dicePercent": 70.3,
+          "gtVoxels": 267,
+          "predVoxels": 248,
+          "tpVoxels": 181,
+          "fnVoxels": 86,
+          "fpVoxels": 67
+        },
+        "Parotid_L": {
+          "dicePercent": 81.9,
+          "gtVoxels": 11249,
+          "predVoxels": 9854,
+          "tpVoxels": 8643,
+          "fnVoxels": 2606,
+          "fpVoxels": 1211
+        },
+        "Parotid_R": {
+          "dicePercent": 82.3,
+          "gtVoxels": 10842,
+          "predVoxels": 8590,
+          "tpVoxels": 7993,
+          "fnVoxels": 2849,
+          "fpVoxels": 597
+        },
+        "Submandibular_L": {
+          "dicePercent": 70.3,
+          "gtVoxels": 2221,
+          "predVoxels": 2143,
+          "tpVoxels": 1533,
+          "fnVoxels": 688,
+          "fpVoxels": 610
+        },
+        "Submandibular_R": {
+          "dicePercent": 73.8,
+          "gtVoxels": 3123,
+          "predVoxels": 2330,
+          "tpVoxels": 2011,
+          "fnVoxels": 1112,
+          "fpVoxels": 319
+        }
+      }
+    },
+    {
+      "id": "0522c0598",
+      "gt": "pddca-viz/0522c0598/gt.png",
+      "pred": "pddca-viz/0522c0598/pred.png",
+      "fn": "pddca-viz/0522c0598/fn.png",
+      "scene3d": "pddca-viz/0522c0598/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 86.5,
+        "Chiasm": 57.3,
+        "Mandible": 81.4,
+        "OpticNerve_L": 63.5,
+        "OpticNerve_R": 70.8,
+        "Parotid_L": 88.2,
+        "Parotid_R": 90.3,
+        "Submandibular_L": 75.8,
+        "Submandibular_R": 72.4
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 86.5,
+          "gtVoxels": 5825,
+          "predVoxels": 6463,
+          "tpVoxels": 5314,
+          "fnVoxels": 511,
+          "fpVoxels": 1149
+        },
+        "Chiasm": {
+          "dicePercent": 57.3,
+          "gtVoxels": 274,
+          "predVoxels": 504,
+          "tpVoxels": 223,
+          "fnVoxels": 51,
+          "fpVoxels": 281
+        },
+        "Mandible": {
+          "dicePercent": 81.4,
+          "gtVoxels": 12879,
+          "predVoxels": 9729,
+          "tpVoxels": 9203,
+          "fnVoxels": 3676,
+          "fpVoxels": 526
+        },
+        "OpticNerve_L": {
+          "dicePercent": 63.5,
+          "gtVoxels": 154,
+          "predVoxels": 240,
+          "tpVoxels": 125,
+          "fnVoxels": 29,
+          "fpVoxels": 115
+        },
+        "OpticNerve_R": {
+          "dicePercent": 70.8,
+          "gtVoxels": 146,
+          "predVoxels": 196,
+          "tpVoxels": 121,
+          "fnVoxels": 25,
+          "fpVoxels": 75
+        },
+        "Parotid_L": {
+          "dicePercent": 88.2,
+          "gtVoxels": 8077,
+          "predVoxels": 7387,
+          "tpVoxels": 6817,
+          "fnVoxels": 1260,
+          "fpVoxels": 570
+        },
+        "Parotid_R": {
+          "dicePercent": 90.3,
+          "gtVoxels": 7846,
+          "predVoxels": 7814,
+          "tpVoxels": 7074,
+          "fnVoxels": 772,
+          "fpVoxels": 740
+        },
+        "Submandibular_L": {
+          "dicePercent": 75.8,
+          "gtVoxels": 1646,
+          "predVoxels": 1321,
+          "tpVoxels": 1125,
+          "fnVoxels": 521,
+          "fpVoxels": 196
+        },
+        "Submandibular_R": {
+          "dicePercent": 72.4,
+          "gtVoxels": 1809,
+          "predVoxels": 1311,
+          "tpVoxels": 1129,
+          "fnVoxels": 680,
+          "fpVoxels": 182
+        }
+      }
+    },
+    {
+      "id": "0522c0659",
+      "gt": "pddca-viz/0522c0659/gt.png",
+      "pred": "pddca-viz/0522c0659/pred.png",
+      "fn": "pddca-viz/0522c0659/fn.png",
+      "scene3d": "pddca-viz/0522c0659/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 88.6,
+        "Chiasm": 37.6,
+        "Mandible": 88.2,
+        "OpticNerve_L": 51.1,
+        "OpticNerve_R": 52.2,
+        "Parotid_L": 79.7,
+        "Parotid_R": 71.5,
+        "Submandibular_L": 70.0,
+        "Submandibular_R": 70.6
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 88.6,
+          "gtVoxels": 6742,
+          "predVoxels": 6888,
+          "tpVoxels": 6039,
+          "fnVoxels": 703,
+          "fpVoxels": 849
+        },
+        "Chiasm": {
+          "dicePercent": 37.6,
+          "gtVoxels": 143,
+          "predVoxels": 272,
+          "tpVoxels": 78,
+          "fnVoxels": 65,
+          "fpVoxels": 194
+        },
+        "Mandible": {
+          "dicePercent": 88.2,
+          "gtVoxels": 18340,
+          "predVoxels": 16846,
+          "tpVoxels": 15522,
+          "fnVoxels": 2818,
+          "fpVoxels": 1324
+        },
+        "OpticNerve_L": {
+          "dicePercent": 51.1,
+          "gtVoxels": 212,
+          "predVoxels": 352,
+          "tpVoxels": 144,
+          "fnVoxels": 68,
+          "fpVoxels": 208
+        },
+        "OpticNerve_R": {
+          "dicePercent": 52.2,
+          "gtVoxels": 149,
+          "predVoxels": 188,
+          "tpVoxels": 88,
+          "fnVoxels": 61,
+          "fpVoxels": 100
+        },
+        "Parotid_L": {
+          "dicePercent": 79.7,
+          "gtVoxels": 6173,
+          "predVoxels": 6255,
+          "tpVoxels": 4952,
+          "fnVoxels": 1221,
+          "fpVoxels": 1303
+        },
+        "Parotid_R": {
+          "dicePercent": 71.5,
+          "gtVoxels": 7606,
+          "predVoxels": 6363,
+          "tpVoxels": 4994,
+          "fnVoxels": 2612,
+          "fpVoxels": 1369
+        },
+        "Submandibular_L": {
+          "dicePercent": 70.0,
+          "gtVoxels": 2125,
+          "predVoxels": 2032,
+          "tpVoxels": 1455,
+          "fnVoxels": 670,
+          "fpVoxels": 577
+        },
+        "Submandibular_R": {
+          "dicePercent": 70.6,
+          "gtVoxels": 2139,
+          "predVoxels": 2160,
+          "tpVoxels": 1517,
+          "fnVoxels": 622,
+          "fpVoxels": 643
+        }
+      }
+    },
+    {
+      "id": "0522c0661",
+      "gt": "pddca-viz/0522c0661/gt.png",
+      "pred": "pddca-viz/0522c0661/pred.png",
+      "fn": "pddca-viz/0522c0661/fn.png",
+      "scene3d": "pddca-viz/0522c0661/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 85.7,
+        "Chiasm": 56.8,
+        "Mandible": 88.1,
+        "OpticNerve_L": 35.4,
+        "OpticNerve_R": 46.6,
+        "Parotid_L": 88.1,
+        "Parotid_R": 89.0,
+        "Submandibular_L": 72.3,
+        "Submandibular_R": 65.1
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 85.7,
+          "gtVoxels": 11338,
+          "predVoxels": 9764,
+          "tpVoxels": 9043,
+          "fnVoxels": 2295,
+          "fpVoxels": 721
+        },
+        "Chiasm": {
+          "dicePercent": 56.8,
+          "gtVoxels": 277,
+          "predVoxels": 300,
+          "tpVoxels": 164,
+          "fnVoxels": 113,
+          "fpVoxels": 136
+        },
+        "Mandible": {
+          "dicePercent": 88.1,
+          "gtVoxels": 21573,
+          "predVoxels": 23775,
+          "tpVoxels": 19983,
+          "fnVoxels": 1590,
+          "fpVoxels": 3792
+        },
+        "OpticNerve_L": {
+          "dicePercent": 35.4,
+          "gtVoxels": 201,
+          "predVoxels": 240,
+          "tpVoxels": 78,
+          "fnVoxels": 123,
+          "fpVoxels": 162
+        },
+        "OpticNerve_R": {
+          "dicePercent": 46.6,
+          "gtVoxels": 232,
+          "predVoxels": 416,
+          "tpVoxels": 151,
+          "fnVoxels": 81,
+          "fpVoxels": 265
+        },
+        "Parotid_L": {
+          "dicePercent": 88.1,
+          "gtVoxels": 11904,
+          "predVoxels": 10549,
+          "tpVoxels": 9889,
+          "fnVoxels": 2015,
+          "fpVoxels": 660
+        },
+        "Parotid_R": {
+          "dicePercent": 89.0,
+          "gtVoxels": 12029,
+          "predVoxels": 11450,
+          "tpVoxels": 10451,
+          "fnVoxels": 1578,
+          "fpVoxels": 999
+        },
+        "Submandibular_L": {
+          "dicePercent": 72.3,
+          "gtVoxels": 2761,
+          "predVoxels": 1871,
+          "tpVoxels": 1675,
+          "fnVoxels": 1086,
+          "fpVoxels": 196
+        },
+        "Submandibular_R": {
+          "dicePercent": 65.1,
+          "gtVoxels": 2914,
+          "predVoxels": 1890,
+          "tpVoxels": 1563,
+          "fnVoxels": 1351,
+          "fpVoxels": 327
+        }
+      }
+    },
+    {
+      "id": "0522c0667",
+      "gt": "pddca-viz/0522c0667/gt.png",
+      "pred": "pddca-viz/0522c0667/pred.png",
+      "fn": "pddca-viz/0522c0667/fn.png",
+      "scene3d": "pddca-viz/0522c0667/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 79.9,
+        "Chiasm": 41.1,
+        "Mandible": 87.4,
+        "OpticNerve_L": 55.9,
+        "OpticNerve_R": 51.4,
+        "Parotid_L": 84.1,
+        "Parotid_R": 86.5,
+        "Submandibular_L": 64.7,
+        "Submandibular_R": 73.2
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 79.9,
+          "gtVoxels": 6997,
+          "predVoxels": 5395,
+          "tpVoxels": 4951,
+          "fnVoxels": 2046,
+          "fpVoxels": 444
+        },
+        "Chiasm": {
+          "dicePercent": 41.1,
+          "gtVoxels": 176,
+          "predVoxels": 340,
+          "tpVoxels": 106,
+          "fnVoxels": 70,
+          "fpVoxels": 234
+        },
+        "Mandible": {
+          "dicePercent": 87.4,
+          "gtVoxels": 14900,
+          "predVoxels": 13636,
+          "tpVoxels": 12466,
+          "fnVoxels": 2434,
+          "fpVoxels": 1170
+        },
+        "OpticNerve_L": {
+          "dicePercent": 55.9,
+          "gtVoxels": 196,
+          "predVoxels": 212,
+          "tpVoxels": 114,
+          "fnVoxels": 82,
+          "fpVoxels": 98
+        },
+        "OpticNerve_R": {
+          "dicePercent": 51.4,
+          "gtVoxels": 143,
+          "predVoxels": 188,
+          "tpVoxels": 85,
+          "fnVoxels": 58,
+          "fpVoxels": 103
+        },
+        "Parotid_L": {
+          "dicePercent": 84.1,
+          "gtVoxels": 10979,
+          "predVoxels": 8996,
+          "tpVoxels": 8402,
+          "fnVoxels": 2577,
+          "fpVoxels": 594
+        },
+        "Parotid_R": {
+          "dicePercent": 86.5,
+          "gtVoxels": 10674,
+          "predVoxels": 10086,
+          "tpVoxels": 8981,
+          "fnVoxels": 1693,
+          "fpVoxels": 1105
+        },
+        "Submandibular_L": {
+          "dicePercent": 64.7,
+          "gtVoxels": 3266,
+          "predVoxels": 1582,
+          "tpVoxels": 1569,
+          "fnVoxels": 1697,
+          "fpVoxels": 13
+        },
+        "Submandibular_R": {
+          "dicePercent": 73.2,
+          "gtVoxels": 2449,
+          "predVoxels": 1608,
+          "tpVoxels": 1485,
+          "fnVoxels": 964,
+          "fpVoxels": 123
+        }
+      }
+    },
+    {
+      "id": "0522c0669",
+      "gt": "pddca-viz/0522c0669/gt.png",
+      "pred": "pddca-viz/0522c0669/pred.png",
+      "fn": "pddca-viz/0522c0669/fn.png",
+      "scene3d": "pddca-viz/0522c0669/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 85.9,
+        "Chiasm": 56.2,
+        "Mandible": 88.7,
+        "OpticNerve_L": 51.0,
+        "OpticNerve_R": 55.2,
+        "Parotid_L": 83.9,
+        "Parotid_R": 83.1,
+        "Submandibular_L": 65.4,
+        "Submandibular_R": 67.3
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 85.9,
+          "gtVoxels": 8042,
+          "predVoxels": 8058,
+          "tpVoxels": 6912,
+          "fnVoxels": 1130,
+          "fpVoxels": 1146
+        },
+        "Chiasm": {
+          "dicePercent": 56.2,
+          "gtVoxels": 162,
+          "predVoxels": 276,
+          "tpVoxels": 123,
+          "fnVoxels": 39,
+          "fpVoxels": 153
+        },
+        "Mandible": {
+          "dicePercent": 88.7,
+          "gtVoxels": 20049,
+          "predVoxels": 18104,
+          "tpVoxels": 16916,
+          "fnVoxels": 3133,
+          "fpVoxels": 1188
+        },
+        "OpticNerve_L": {
+          "dicePercent": 51.0,
+          "gtVoxels": 162,
+          "predVoxels": 332,
+          "tpVoxels": 126,
+          "fnVoxels": 36,
+          "fpVoxels": 206
+        },
+        "OpticNerve_R": {
+          "dicePercent": 55.2,
+          "gtVoxels": 127,
+          "predVoxels": 232,
+          "tpVoxels": 99,
+          "fnVoxels": 28,
+          "fpVoxels": 133
+        },
+        "Parotid_L": {
+          "dicePercent": 83.9,
+          "gtVoxels": 7546,
+          "predVoxels": 7634,
+          "tpVoxels": 6369,
+          "fnVoxels": 1177,
+          "fpVoxels": 1265
+        },
+        "Parotid_R": {
+          "dicePercent": 83.1,
+          "gtVoxels": 7936,
+          "predVoxels": 7851,
+          "tpVoxels": 6557,
+          "fnVoxels": 1379,
+          "fpVoxels": 1294
+        },
+        "Submandibular_L": {
+          "dicePercent": 65.4,
+          "gtVoxels": 1800,
+          "predVoxels": 929,
+          "tpVoxels": 893,
+          "fnVoxels": 907,
+          "fpVoxels": 36
+        },
+        "Submandibular_R": {
+          "dicePercent": 67.3,
+          "gtVoxels": 1945,
+          "predVoxels": 1026,
+          "tpVoxels": 999,
+          "fnVoxels": 946,
+          "fpVoxels": 27
+        }
+      }
+    },
+    {
+      "id": "0522c0708",
+      "gt": "pddca-viz/0522c0708/gt.png",
+      "pred": "pddca-viz/0522c0708/pred.png",
+      "fn": "pddca-viz/0522c0708/fn.png",
+      "scene3d": "pddca-viz/0522c0708/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 87.4,
+        "Chiasm": 48.9,
+        "Mandible": 86.9,
+        "OpticNerve_L": 60.1,
+        "OpticNerve_R": 55.9,
+        "Parotid_L": 86.5,
+        "Parotid_R": 88.6,
+        "Submandibular_L": 74.4,
+        "Submandibular_R": 68.9
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 87.4,
+          "gtVoxels": 7281,
+          "predVoxels": 7154,
+          "tpVoxels": 6311,
+          "fnVoxels": 970,
+          "fpVoxels": 843
+        },
+        "Chiasm": {
+          "dicePercent": 48.9,
+          "gtVoxels": 139,
+          "predVoxels": 176,
+          "tpVoxels": 77,
+          "fnVoxels": 62,
+          "fpVoxels": 99
+        },
+        "Mandible": {
+          "dicePercent": 86.9,
+          "gtVoxels": 13568,
+          "predVoxels": 12204,
+          "tpVoxels": 11204,
+          "fnVoxels": 2364,
+          "fpVoxels": 1000
+        },
+        "OpticNerve_L": {
+          "dicePercent": 60.1,
+          "gtVoxels": 119,
+          "predVoxels": 164,
+          "tpVoxels": 85,
+          "fnVoxels": 34,
+          "fpVoxels": 79
+        },
+        "OpticNerve_R": {
+          "dicePercent": 55.9,
+          "gtVoxels": 137,
+          "predVoxels": 292,
+          "tpVoxels": 120,
+          "fnVoxels": 17,
+          "fpVoxels": 172
+        },
+        "Parotid_L": {
+          "dicePercent": 86.5,
+          "gtVoxels": 7614,
+          "predVoxels": 8363,
+          "tpVoxels": 6907,
+          "fnVoxels": 707,
+          "fpVoxels": 1456
+        },
+        "Parotid_R": {
+          "dicePercent": 88.6,
+          "gtVoxels": 7474,
+          "predVoxels": 7707,
+          "tpVoxels": 6722,
+          "fnVoxels": 752,
+          "fpVoxels": 985
+        },
+        "Submandibular_L": {
+          "dicePercent": 74.4,
+          "gtVoxels": 2169,
+          "predVoxels": 2095,
+          "tpVoxels": 1586,
+          "fnVoxels": 583,
+          "fpVoxels": 509
+        },
+        "Submandibular_R": {
+          "dicePercent": 68.9,
+          "gtVoxels": 1796,
+          "predVoxels": 1403,
+          "tpVoxels": 1102,
+          "fnVoxels": 694,
+          "fpVoxels": 301
+        }
+      }
+    },
+    {
+      "id": "0522c0727",
+      "gt": "pddca-viz/0522c0727/gt.png",
+      "pred": "pddca-viz/0522c0727/pred.png",
+      "fn": "pddca-viz/0522c0727/fn.png",
+      "scene3d": "pddca-viz/0522c0727/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 83.0,
+        "Chiasm": 33.5,
+        "Mandible": 87.6,
+        "OpticNerve_L": 60.2,
+        "OpticNerve_R": 73.2,
+        "Parotid_L": 85.2,
+        "Parotid_R": 82.2,
+        "Submandibular_L": 75.0,
+        "Submandibular_R": 74.7
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 83.0,
+          "gtVoxels": 6862,
+          "predVoxels": 7242,
+          "tpVoxels": 5856,
+          "fnVoxels": 1006,
+          "fpVoxels": 1386
+        },
+        "Chiasm": {
+          "dicePercent": 33.5,
+          "gtVoxels": 133,
+          "predVoxels": 368,
+          "tpVoxels": 84,
+          "fnVoxels": 49,
+          "fpVoxels": 284
+        },
+        "Mandible": {
+          "dicePercent": 87.6,
+          "gtVoxels": 18615,
+          "predVoxels": 15882,
+          "tpVoxels": 15110,
+          "fnVoxels": 3505,
+          "fpVoxels": 772
+        },
+        "OpticNerve_L": {
+          "dicePercent": 60.2,
+          "gtVoxels": 169,
+          "predVoxels": 140,
+          "tpVoxels": 93,
+          "fnVoxels": 76,
+          "fpVoxels": 47
+        },
+        "OpticNerve_R": {
+          "dicePercent": 73.2,
+          "gtVoxels": 155,
+          "predVoxels": 192,
+          "tpVoxels": 127,
+          "fnVoxels": 28,
+          "fpVoxels": 65
+        },
+        "Parotid_L": {
+          "dicePercent": 85.2,
+          "gtVoxels": 8988,
+          "predVoxels": 8643,
+          "tpVoxels": 7511,
+          "fnVoxels": 1477,
+          "fpVoxels": 1132
+        },
+        "Parotid_R": {
+          "dicePercent": 82.2,
+          "gtVoxels": 8888,
+          "predVoxels": 8371,
+          "tpVoxels": 7094,
+          "fnVoxels": 1794,
+          "fpVoxels": 1277
+        },
+        "Submandibular_L": {
+          "dicePercent": 75.0,
+          "gtVoxels": 1581,
+          "predVoxels": 1031,
+          "tpVoxels": 980,
+          "fnVoxels": 601,
+          "fpVoxels": 51
+        },
+        "Submandibular_R": {
+          "dicePercent": 74.7,
+          "gtVoxels": 1780,
+          "predVoxels": 1346,
+          "tpVoxels": 1167,
+          "fnVoxels": 613,
+          "fpVoxels": 179
+        }
+      }
+    },
+    {
+      "id": "0522c0746",
+      "gt": "pddca-viz/0522c0746/gt.png",
+      "pred": "pddca-viz/0522c0746/pred.png",
+      "fn": "pddca-viz/0522c0746/fn.png",
+      "scene3d": "pddca-viz/0522c0746/scene_3d.html",
+      "dicePercent": {
+        "BrainStem": 87.2,
+        "Chiasm": 10.6,
+        "Mandible": 83.9,
+        "OpticNerve_L": 51.6,
+        "OpticNerve_R": 50.6,
+        "Parotid_L": 84.0,
+        "Parotid_R": 73.2,
+        "Submandibular_L": 72.7,
+        "Submandibular_R": 60.9
+      },
+      "organMetrics": {
+        "BrainStem": {
+          "dicePercent": 87.2,
+          "gtVoxels": 10047,
+          "predVoxels": 10230,
+          "tpVoxels": 8838,
+          "fnVoxels": 1209,
+          "fpVoxels": 1392
+        },
+        "Chiasm": {
+          "dicePercent": 10.6,
+          "gtVoxels": 200,
+          "predVoxels": 292,
+          "tpVoxels": 26,
+          "fnVoxels": 174,
+          "fpVoxels": 266
+        },
+        "Mandible": {
+          "dicePercent": 83.9,
+          "gtVoxels": 14540,
+          "predVoxels": 11829,
+          "tpVoxels": 11058,
+          "fnVoxels": 3482,
+          "fpVoxels": 771
+        },
+        "OpticNerve_L": {
+          "dicePercent": 51.6,
+          "gtVoxels": 268,
+          "predVoxels": 224,
+          "tpVoxels": 127,
+          "fnVoxels": 141,
+          "fpVoxels": 97
+        },
+        "OpticNerve_R": {
+          "dicePercent": 50.6,
+          "gtVoxels": 172,
+          "predVoxels": 148,
+          "tpVoxels": 81,
+          "fnVoxels": 91,
+          "fpVoxels": 67
+        },
+        "Parotid_L": {
+          "dicePercent": 84.0,
+          "gtVoxels": 11074,
+          "predVoxels": 9276,
+          "tpVoxels": 8547,
+          "fnVoxels": 2527,
+          "fpVoxels": 729
+        },
+        "Parotid_R": {
+          "dicePercent": 73.2,
+          "gtVoxels": 10407,
+          "predVoxels": 12916,
+          "tpVoxels": 8531,
+          "fnVoxels": 1876,
+          "fpVoxels": 4385
+        },
+        "Submandibular_L": {
+          "dicePercent": 72.7,
+          "gtVoxels": 3705,
+          "predVoxels": 2157,
+          "tpVoxels": 2130,
+          "fnVoxels": 1575,
+          "fpVoxels": 27
+        },
+        "Submandibular_R": {
+          "dicePercent": 60.9,
+          "gtVoxels": 3327,
+          "predVoxels": 1494,
+          "tpVoxels": 1469,
+          "fnVoxels": 1858,
+          "fpVoxels": 25
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.pth
+*.pt
+
+# Node / React (site)
+site/node_modules/
+site/build/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+
+# 2- uNET: GB’lık çıktılar ve modeller — sadece .py / .sh / küçük notebook-6* commit
+2- uNET/*
+!2- uNET/*.py
+!2- uNET/*.sh
+!2- uNET/notebook-6*.ipynb
+
+# Yerel hasta verisi (varsa)
+**/img.nrrd
+**/structures.nrrd
+
+# Repo kökündeki ham PDDCA / diğer çalışmalar (/ = sadece depo kökü; site/public/pddca-viz etkilenmez)
+/0522c*/
+/01-Atlas Based Methods/
+/3- CycleGAN/
+/Articles/
+/HaN-Seg/
+/.ipynb_checkpoints/
+/e1.ipynb
+/single_atlas_leave_one_out.xlsx
+/visualize_all_test_patients.ipynb
+/visualize_brainstem.ipynb
+/data_split.json

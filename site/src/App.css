@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: #f0f2f5;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.header {
+  background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+  color: #f8fafc;
+  padding: 1.5rem 1.75rem 1.25rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.header-sub {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.92;
+  max-width: 52rem;
+  line-height: 1.45;
+}
+
+.banner {
+  margin: 1rem 1.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.banner-error {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.dice-section {
+  margin: 0 1.5rem 1rem;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  max-width: 420px;
+}
+
+.dice-section-wide {
+  max-width: 960px;
+  width: 100%;
+  margin: 1.25rem auto 0;
+  box-sizing: border-box;
+}
+
+.dice-split {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(280px, 1.15fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+@media (max-width: 720px) {
+  .dice-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dice-row:hover {
+  background: #f8fafc;
+}
+
+.dice-row-selected {
+  background: #eff6ff;
+}
+
+.dice-organ-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-weight: 500;
+  color: #1d4ed8;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dice-organ-btn:hover {
+  color: #1e40af;
+}
+
+.dice-detail {
+  padding: 0.85rem 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  min-height: 12rem;
+}
+
+.dice-detail-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-detail-hint {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.45;
+  max-width: 16rem;
+}
+
+.dice-detail-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+
+.dice-detail-dsc {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+
+.dice-detail-intro {
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.dice-detail-quadrants {
+  margin: 0 0 0.75rem;
+  padding-left: 1.15rem;
+  font-size: 0.82rem;
+  color: #334155;
+  line-height: 1.55;
+}
+
+.dice-detail-quadrants li {
+  margin-bottom: 0.35rem;
+}
+
+.dice-detail-quadrants li:last-child {
+  margin-bottom: 0;
+}
+
+.dice-detail-tpderiv {
+  margin: 0 0 0.65rem;
+  font-size: 0.82rem;
+  color: #334155;
+  line-height: 1.55;
+}
+
+.dice-detail-mono {
+  font-family: ui-monospace, 'Cascadia Code', monospace;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.dice-detail-dl-compact {
+  margin-bottom: 0.65rem;
+}
+
+.dice-detail-identity {
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.dice-detail-warn {
+  color: #b45309;
+  font-weight: 500;
+}
+
+.dice-detail-formulas {
+  margin-top: 0.35rem;
+}
+
+.dice-detail-dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.25rem 1rem;
+  font-size: 0.85rem;
+}
+
+.dice-detail-dl dt {
+  color: #64748b;
+  font-weight: 500;
+}
+
+.dice-detail-dl dd {
+  margin: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.dice-detail-formula {
+  margin: 0.85rem 0 0;
+  font-size: 0.8rem;
+  color: #475569;
+  line-height: 1.45;
+}
+
+.dice-detail-upgrade {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.dice-detail-upgrade code {
+  font-size: 0.75rem;
+}
+
+.dice-heading {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.dice-pid {
+  font-family: ui-monospace, monospace;
+  font-size: 0.95em;
+}
+
+.dice-note {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.dice-table-wrap {
+  overflow-x: auto;
+}
+
+.dice-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.dice-table th,
+.dice-table td {
+  padding: 0.4rem 0.55rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.dice-table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.dice-organ {
+  color: #334155;
+  font-weight: 500;
+}
+
+.dice-val {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  min-width: 4.5rem;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.25rem 1.5rem 0;
+}
+
+.toolbar label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.select-patient {
+  padding: 0.45rem 0.75rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  min-width: 10rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem 2.5rem;
+}
+
+.main-3d-only {
+  max-width: 1400px;
+}
+
+.viz-3d-caption {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.viz-figure-3d {
+  margin: 0 auto 1rem;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.viz-figure-3d figcaption {
+  padding: 0.5rem 0.85rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.viz-frame-3d {
+  min-height: 1180px;
+  aspect-ratio: unset;
+}
+
+.viz-iframe-3d {
+  display: block;
+  width: 100%;
+  height: 1180px;
+  border: none;
+  background: #fff;
+}
