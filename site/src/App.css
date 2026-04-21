@@ -1722,3 +1722,492 @@
 }
 .zr-matrix-cell:hover { transform: scale(1.15); z-index: 1; }
 .zr-matrix-x { font-size: 0.7rem; color: #334155; }
+
+/* ── Header controls (lang + dark toggle) ────────────────── */
+.header-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-bottom: 0.5rem;
+  flex-shrink: 0;
+}
+
+.ctrl-btn {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #f8fafc;
+  border-radius: 6px;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.ctrl-btn:hover {
+  background: rgba(255,255,255,0.22);
+}
+
+/* ── Contact cards grid ──────────────────────────────────── */
+.contact-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.contact-avatar-alt {
+  background: linear-gradient(135deg, #2d6a8f, #1e4d6b);
+}
+
+/* ── Dark mode ───────────────────────────────────────────── */
+.app.dark {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.dark .header {
+  background: linear-gradient(135deg, #0a1929 0%, #0f2d4a 100%);
+}
+
+/* Sidebar */
+.dark .viewer-sidebar {
+  background: #1e293b;
+  border-right-color: #334155;
+}
+
+.dark .viewer-sidebar-divider { background: #334155; }
+
+.dark .viewer-sidebar-label { color: #94a3b8; }
+
+.dark .viewer-sidebar-select {
+  background: #0f172a;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark .viewer-sidebar-item-label {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .viewer-sidebar-item-label:hover {
+  background: #1e3a5f;
+  border-color: #60a5fa;
+}
+
+.dark .viewer-sidebar-item-label-on {
+  background: #1e3a5f;
+  border-color: #3b82f6;
+}
+
+.dark .viewer-sidebar-item-name { color: #93c5fd; }
+
+.dark .viewer-sidebar-note { color: #64748b; }
+
+/* Main area cards */
+.dark .viewer-grid-col {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.dark .viewer-grid-col-title {
+  background: #0f172a;
+  color: #93c5fd;
+  border-bottom-color: #334155;
+}
+
+/* Dice section */
+.dark .dice-section {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.dark .dice-heading { color: #e2e8f0; }
+
+.dark .dice-note { color: #94a3b8; }
+
+.dark .dice-table th,
+.dark .dice-table td {
+  border-bottom-color: #334155;
+}
+
+.dark .dice-table th { color: #94a3b8; }
+
+.dark .dice-organ-btn { color: #60a5fa; }
+
+.dark .dice-row:hover { background: #0f172a; }
+
+.dark .dice-row-selected { background: #1e3a5f; }
+
+.dark .dice-detail {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .dice-detail-title { color: #e2e8f0; }
+
+.dark .dice-detail-hint { color: #64748b; }
+
+.dark .dice-detail-intro { color: #94a3b8; }
+
+.dark .dice-detail-quadrants { color: #cbd5e1; }
+
+.dark .dice-detail-tpderiv { color: #cbd5e1; }
+
+.dark .dice-detail-mono { color: #e2e8f0; }
+
+.dark .dice-detail-dl dt { color: #94a3b8; }
+
+.dark .dice-detail-dl dd { color: #e2e8f0; }
+
+.dark .dice-detail-identity { color: #94a3b8; }
+
+.dark .dice-detail-formula { color: #94a3b8; }
+
+.dark .dice-detail-upgrade { color: #64748b; }
+
+/* Atlas section */
+.dark .atlas-dice-triplet {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.dark .atlas-dice-triplet-heading { color: #e2e8f0; }
+
+.dark .atlas-dice-triplet-note { color: #94a3b8; }
+
+.dark .atlas-dice-triplet-top5 { color: #cbd5e1; }
+
+.dark .atlas-dice-triplet-col {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .atlas-dice-triplet-method { color: #93c5fd; }
+
+.dark .atlas-dice-mini-table th,
+.dark .atlas-dice-mini-table td {
+  border-bottom-color: #334155;
+  color: #cbd5e1;
+}
+
+.dark .atlas-dice-mini-table th { color: #94a3b8; }
+
+.dark .atlas-dice-atlas-select {
+  background: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark .atlas-dice-atlas-label { color: #94a3b8; }
+
+.dark .atlas-dice-fusion-hint { color: #94a3b8; }
+
+/* Static pages */
+.dark .static-page {
+  background: #1e293b;
+}
+
+.dark .static-page-title { color: #e2e8f0; }
+
+.dark .static-page-lead { color: #cbd5e1; }
+
+.dark .static-section-title { color: #e2e8f0; }
+
+.dark .static-table td,
+.dark .static-table th {
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+.dark .static-table thead tr { background: #0f172a; }
+
+.dark .static-organ-item { color: #cbd5e1; }
+
+.dark .static-link { color: #60a5fa; }
+
+/* Study cards */
+.dark .study-card {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .study-card-title { color: #e2e8f0; }
+
+.dark .study-card-body p { color: #cbd5e1; }
+
+.dark .study-method-list li { color: #cbd5e1; }
+
+.dark .study-method-subtitle { color: #94a3b8; }
+
+/* Contact cards */
+.dark .contact-card {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .contact-name { color: #e2e8f0; }
+
+.dark .contact-icon-email { background: #1e3a5f; color: #93c5fd; }
+
+.dark .contact-icon-linkedin { background: #1e3a5f; color: #60a5fa; }
+
+/* Footer */
+.dark .project-refs {
+  background: #1e293b;
+  border-top-color: #334155;
+}
+
+.dark .project-refs-title { color: #e2e8f0; }
+
+.dark .project-refs-intro { color: #94a3b8; }
+
+.dark .project-refs-item { color: #cbd5e1; }
+
+/* Banner */
+.dark .banner-error {
+  background: #450a0a;
+  color: #fca5a5;
+  border-color: #7f1d1d;
+}
+
+/* Slice viewer */
+.dark .slice-viewer-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #e2e8f0;
+}
+
+.dark .slice-viewer-btn:hover {
+  background: #1e3a5f;
+  border-color: #60a5fa;
+}
+
+.dark .slice-viewer-btn-open {
+  background: #1e3a5f;
+  border-color: #3b82f6;
+}
+
+.dark .slice-viewer-pending {
+  background: #0f172a;
+  color: #94a3b8;
+  border-color: #334155;
+}
+
+/* Z-range page */
+.dark .zr-page { background: #1e293b; }
+
+.dark .zr-leg-item { color: #cbd5e1; }
+
+.dark .zr-tab {
+  background: #0f172a;
+  border-color: #334155;
+  color: #94a3b8;
+}
+
+.dark .zr-tab:hover { background: #1e3a5f; color: #e2e8f0; }
+
+.dark .zr-tab-on {
+  background: #1e3a5f;
+  border-color: #3b82f6;
+  color: #e2e8f0;
+}
+
+.dark .zr-gantt-wrap { background: #0f172a; }
+
+.dark .zr-gantt-tick { color: #475569; }
+
+.dark .zr-gantt-pid { color: #94a3b8; }
+
+.dark .zr-note { color: #64748b; }
+
+.dark .zr-span-nums { color: #94a3b8; }
+
+.dark .zr-span-axis span { color: #475569; }
+
+.dark .zr-matrix-col-head { color: #94a3b8; }
+
+.dark .zr-matrix-pid { color: #94a3b8; }
+
+.dark .zr-matrix-x { color: #94a3b8; }
+
+/* Generate hint */
+.dark .atlas-3d-generate-hint {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .atlas-3d-generate-title { color: #cbd5e1; }
+
+.dark .atlas-3d-generate-note { color: #64748b; }
+
+/* ── Atlas results table in Studies page ─────────────────── */
+.study-results-wrap {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.study-results-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e3a5f;
+}
+
+.study-results-note {
+  margin: 0 0 0.9rem;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.study-results-table-wrap {
+  overflow-x: auto;
+}
+
+.study-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  min-width: 480px;
+}
+
+.study-results-table th,
+.study-results-table td {
+  padding: 0.42rem 0.7rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.study-results-table th {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  font-weight: 700;
+  background: #f8fafc;
+}
+
+.study-results-th-best {
+  color: #15803d !important;
+  background: #f0fdf4 !important;
+}
+
+.study-results-organ {
+  font-weight: 600;
+  color: #334155;
+  white-space: nowrap;
+}
+
+.study-results-val {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  min-width: 5.5rem;
+}
+
+.study-results-val-best {
+  outline: 2px solid #22c55e;
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.study-results-mean-row td {
+  border-top: 2px solid #cbd5e1;
+  background: #f8fafc;
+}
+
+/* Dark overrides */
+.dark .study-results-wrap { border-top-color: #334155; }
+.dark .study-results-title { color: #93c5fd; }
+.dark .study-results-note { color: #64748b; }
+.dark .study-results-table th { background: #0f172a; color: #94a3b8; }
+.dark .study-results-table th,
+.dark .study-results-table td { border-bottom-color: #334155; }
+.dark .study-results-th-best { background: #052e16 !important; color: #4ade80 !important; }
+.dark .study-results-organ { color: #cbd5e1; }
+.dark .study-results-mean-row td { background: #0f172a; border-top-color: #475569; }
+
+/* ── U-Net method description cards ─────────────────────── */
+.unet-method-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.unet-method-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  background: #f0f7ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 7px;
+  padding: 0.4rem 0.65rem;
+  flex: 1 1 140px;
+  min-width: 130px;
+}
+
+.unet-method-card-title {
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #1e3a5f;
+}
+
+.unet-method-card-desc {
+  font-size: 0.65rem;
+  color: #64748b;
+  line-height: 1.35;
+}
+
+/* Dark overrides */
+.dark .unet-method-card {
+  background: #0f172a;
+  border-color: #334155;
+}
+.dark .unet-method-card-title { color: #93c5fd; }
+.dark .unet-method-card-desc { color: #64748b; }
+
+/* ── Specialized model (eye/chiasm) study card ──────────── */
+.study-card-header-special {
+  background: linear-gradient(135deg, #1e4d6b 0%, #164e63 100%);
+}
+
+/* Per-patient expand button */
+.nslice-expand-btn {
+  margin-top: 0.75rem;
+  background: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.75rem;
+  color: #475569;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+.nslice-expand-btn:hover {
+  background: #f0f7ff;
+  border-color: #93c5fd;
+  color: #1e3a5f;
+}
+
+/* Dark overrides */
+.dark .study-card-header-special {
+  background: linear-gradient(135deg, #0c3347 0%, #0a2a38 100%);
+}
+.dark .nslice-expand-btn {
+  border-color: #334155;
+  color: #94a3b8;
+}
+.dark .nslice-expand-btn:hover {
+  background: #1e3a5f;
+  border-color: #60a5fa;
+  color: #e2e8f0;
+}
