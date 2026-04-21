@@ -1,0 +1,70 @@
+{
+  "layout": "fnfp",
+  "structureNames": [
+    "BrainStem",
+    "Chiasm",
+    "Mandible",
+    "OpticNerve_L",
+    "OpticNerve_R",
+    "Parotid_L",
+    "Parotid_R",
+    "Submandibular_L",
+    "Submandibular_R"
+  ],
+  "methods": [
+    {
+      "id": "deformable",
+      "label": "Atlas — HQ deformable",
+      "slug": "deformable",
+      "pkl": "train25_test10_hq_deformable_cache.pkl",
+      "scenes": {
+        "0522c0555": "pddca-viz-atlas/deformable/0522c0555/scene_3d.html",
+        "0522c0576": "pddca-viz-atlas/deformable/0522c0576/scene_3d.html",
+        "0522c0598": "pddca-viz-atlas/deformable/0522c0598/scene_3d.html",
+        "0522c0659": "pddca-viz-atlas/deformable/0522c0659/scene_3d.html",
+        "0522c0661": "pddca-viz-atlas/deformable/0522c0661/scene_3d.html",
+        "0522c0667": "pddca-viz-atlas/deformable/0522c0667/scene_3d.html",
+        "0522c0669": "pddca-viz-atlas/deformable/0522c0669/scene_3d.html",
+        "0522c0708": "pddca-viz-atlas/deformable/0522c0708/scene_3d.html",
+        "0522c0727": "pddca-viz-atlas/deformable/0522c0727/scene_3d.html",
+        "0522c0746": "pddca-viz-atlas/deformable/0522c0746/scene_3d.html"
+      }
+    },
+    {
+      "id": "majority_voting",
+      "label": "Atlas — HQ deformable + çoğunluk oylaması",
+      "slug": "majority_voting",
+      "pkl": "train25_test10_hq_majority_voting_deformable_cache.pkl",
+      "scenes": {
+        "0522c0555": "pddca-viz-atlas/majority_voting/0522c0555/scene_3d.html",
+        "0522c0576": "pddca-viz-atlas/majority_voting/0522c0576/scene_3d.html",
+        "0522c0598": "pddca-viz-atlas/majority_voting/0522c0598/scene_3d.html",
+        "0522c0659": "pddca-viz-atlas/majority_voting/0522c0659/scene_3d.html",
+        "0522c0661": "pddca-viz-atlas/majority_voting/0522c0661/scene_3d.html",
+        "0522c0667": "pddca-viz-atlas/majority_voting/0522c0667/scene_3d.html",
+        "0522c0669": "pddca-viz-atlas/majority_voting/0522c0669/scene_3d.html",
+        "0522c0708": "pddca-viz-atlas/majority_voting/0522c0708/scene_3d.html",
+        "0522c0727": "pddca-viz-atlas/majority_voting/0522c0727/scene_3d.html",
+        "0522c0746": "pddca-viz-atlas/majority_voting/0522c0746/scene_3d.html"
+      }
+    },
+    {
+      "id": "staple",
+      "label": "Atlas — HQ deformable + STAPLE",
+      "slug": "staple",
+      "pkl": "train25_test10_hq_staple_deformable_cache.pkl",
+      "scenes": {
+        "0522c0555": "pddca-viz-atlas/staple/0522c0555/scene_3d.html",
+        "0522c0576": "pddca-viz-atlas/staple/0522c0576/scene_3d.html",
+        "0522c0598": "pddca-viz-atlas/staple/0522c0598/scene_3d.html",
+        "0522c0659": "pddca-viz-atlas/staple/0522c0659/scene_3d.html",
+        "0522c0661": "pddca-viz-atlas/staple/0522c0661/scene_3d.html",
+        "0522c0667": "pddca-viz-atlas/staple/0522c0667/scene_3d.html",
+        "0522c0669": "pddca-viz-atlas/staple/0522c0669/scene_3d.html",
+        "0522c0708": "pddca-viz-atlas/staple/0522c0708/scene_3d.html",
+        "0522c0727": "pddca-viz-atlas/staple/0522c0727/scene_3d.html",
+        "0522c0746": "pddca-viz-atlas/staple/0522c0746/scene_3d.html"
+      }
+    }
+  ]
+}

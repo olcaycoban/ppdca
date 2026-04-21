@@ -1,0 +1,154 @@
+{
+  "structureNames": [
+    "BrainStem",
+    "Chiasm",
+    "Mandible",
+    "OpticNerve_L",
+    "OpticNerve_R",
+    "Parotid_L",
+    "Parotid_R",
+    "Submandibular_L",
+    "Submandibular_R"
+  ],
+  "testPatientIds": [
+    "0522c0555",
+    "0522c0576",
+    "0522c0598",
+    "0522c0659",
+    "0522c0661",
+    "0522c0667",
+    "0522c0669",
+    "0522c0708",
+    "0522c0727",
+    "0522c0746"
+  ],
+  "note": "09 notebook: deformable = 25 atlas çiftleri (aşağıda atlas seçerek tek çift görebilirsiniz); MV/STAPLE = en iyi 5 atlas ile birleşik tahmin Dice.",
+  "methods": [
+    {
+      "id": "deformable",
+      "label": "Atlas — HQ deformable",
+      "slug": "deformable",
+      "pkl": "train25_test10_hq_deformable_cache.pkl",
+      "diceKind": "mean_over_atlases",
+      "diceByPatient": {
+        "0522c0555": {
+          "BrainStem": 0.6429051409358878,
+          "Chiasm": 0.10416947517338677,
+          "Mandible": 0.3037920416031954,
+          "OpticNerve_L": 0.13196949550081574,
+          "OpticNerve_R": 0.11732969576306602,
+          "Parotid_L": 0.47742922619876305,
+          "Parotid_R": 0.5141729182598632,
+          "Submandibular_L": 0.18138688992364177,
+          "Submandibular_R": 0.1416470458284887
+        },
+        "0522c0598": {
+          "BrainStem": 0.587239457755834,
+          "Chiasm": 0.21806305172255527,
+          "Mandible": 0.4472353270466882,
+          "OpticNerve_L": 0.10028533035159576,
+          "OpticNerve_R": 0.1451644854010847,
+          "Parotid_L": 0.5685349922668991,
+          "Parotid_R": 0.5717119547778838,
+          "Submandibular_L": 0.33478063736498476,
+          "Submandibular_R": 0.30901580043782206
+        },
+        "0522c0659": {
+          "BrainStem": 0.58569443140138,
+          "Chiasm": 0.10383244535634327,
+          "Mandible": 0.4786849776566384,
+          "OpticNerve_L": 0.12378513203902773,
+          "OpticNerve_R": 0.08391738800810158,
+          "Parotid_L": 0.5037863916108973,
+          "Parotid_R": 0.46397619648818145,
+          "Submandibular_L": 0.39690815379062266,
+          "Submandibular_R": 0.35979186024653115
+        }
+      }
+    },
+    {
+      "id": "majority_voting",
+      "label": "Atlas — HQ deformable + çoğunluk oylaması",
+      "slug": "majority_voting",
+      "pkl": "train25_test10_hq_majority_voting_deformable_cache.pkl",
+      "diceKind": "fused_segmentation",
+      "diceByPatient": {
+        "0522c0555": {
+          "BrainStem": 0.8052723396006978,
+          "Chiasm": 0.5081585081585082,
+          "Mandible": 0.401842380923039,
+          "OpticNerve_L": 0.0,
+          "OpticNerve_R": 0.0,
+          "Parotid_L": 0.6580459770114943,
+          "Parotid_R": 0.7309896688935129,
+          "Submandibular_L": 0.2253061224489796,
+          "Submandibular_R": 0.1471990464839094
+        },
+        "0522c0598": {
+          "BrainStem": 0.626948872049473,
+          "Chiasm": 0.467966573816156,
+          "Mandible": 0.7441824920713768,
+          "OpticNerve_L": 0.0,
+          "OpticNerve_R": 0.18947368421052632,
+          "Parotid_L": 0.7970765262252795,
+          "Parotid_R": 0.6866830980655763,
+          "Submandibular_L": 0.6966580976863753,
+          "Submandibular_R": 0.43605036447978796
+        },
+        "0522c0659": {
+          "BrainStem": 0.766497461928934,
+          "Chiasm": 0.0,
+          "Mandible": 0.7641789291273827,
+          "OpticNerve_L": 0.11864406779661017,
+          "OpticNerve_R": 0.06417112299465241,
+          "Parotid_L": 0.6434472934472935,
+          "Parotid_R": 0.5441893737400013,
+          "Submandibular_L": 0.6176849703531838,
+          "Submandibular_R": 0.2707993474714519
+        }
+      }
+    },
+    {
+      "id": "staple",
+      "label": "Atlas — HQ deformable + STAPLE",
+      "slug": "staple",
+      "pkl": "train25_test10_hq_staple_deformable_cache.pkl",
+      "diceKind": "fused_segmentation",
+      "diceByPatient": {
+        "0522c0555": {
+          "BrainStem": 0.7401950891355533,
+          "Chiasm": 0.39125910509885536,
+          "Mandible": 0.4659852301071062,
+          "OpticNerve_L": 0.03672787979966611,
+          "OpticNerve_R": 0.06060606060606061,
+          "Parotid_L": 0.6205336951605608,
+          "Parotid_R": 0.7019555157486193,
+          "Submandibular_L": 0.27008547008547007,
+          "Submandibular_R": 0.18289585097375105
+        },
+        "0522c0598": {
+          "BrainStem": 0.6023870816756377,
+          "Chiasm": 0.7134502923976608,
+          "Mandible": 0.7442245801867253,
+          "OpticNerve_L": 0.3368421052631579,
+          "OpticNerve_R": 0.4582043343653251,
+          "Parotid_L": 0.8285204113047226,
+          "Parotid_R": 0.7708847151078226,
+          "Submandibular_L": 0.6720241084881969,
+          "Submandibular_R": 0.5355648535564853
+        },
+        "0522c0659": {
+          "BrainStem": 0.7403062122367572,
+          "Chiasm": 0.5989010989010989,
+          "Mandible": 0.760011510239317,
+          "OpticNerve_L": 0.25617977528089886,
+          "OpticNerve_R": 0.11392405063291139,
+          "Parotid_L": 0.6431941495635763,
+          "Parotid_R": 0.5788559701099827,
+          "Submandibular_L": 0.6527331189710611,
+          "Submandibular_R": 0.5538042420704418
+        }
+      }
+    }
+  ]
+}

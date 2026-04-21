@@ -64,17 +64,7 @@
       "pred": "pddca-viz/0522c0555/pred.png",
       "fn": "pddca-viz/0522c0555/fn.png",
       "scene3d": "pddca-viz/0522c0555/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 77.0,
-        "Chiasm": 57.8,
-        "Mandible": 90.8,
-        "OpticNerve_L": 69.3,
-        "OpticNerve_R": 60.9,
-        "Parotid_L": 80.0,
-        "Parotid_R": 78.3,
-        "Submandibular_L": 69.7,
-        "Submandibular_R": 69.1
-      },
+      "pred3d": "pddca-viz/0522c0555/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 77.0,
@@ -148,7 +138,22 @@
           "fnVoxels": 803,
           "fpVoxels": 252
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 77.0,
+        "Chiasm": 57.8,
+        "Mandible": 90.8,
+        "OpticNerve_L": 69.3,
+        "OpticNerve_R": 60.9,
+        "Parotid_L": 80.0,
+        "Parotid_R": 78.3,
+        "Submandibular_L": 69.7,
+        "Submandibular_R": 69.1
+      },
+      "gt3d": "pddca-viz/gt/0522c0555/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0555/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0555/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0555/slice_viewer.html"
     },
     {
       "id": "0522c0576",
@@ -156,17 +161,7 @@
       "pred": "pddca-viz/0522c0576/pred.png",
       "fn": "pddca-viz/0522c0576/fn.png",
       "scene3d": "pddca-viz/0522c0576/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 87.4,
-        "Chiasm": 34.9,
-        "Mandible": 86.2,
-        "OpticNerve_L": 75.0,
-        "OpticNerve_R": 70.3,
-        "Parotid_L": 81.9,
-        "Parotid_R": 82.3,
-        "Submandibular_L": 70.3,
-        "Submandibular_R": 73.8
-      },
+      "pred3d": "pddca-viz/0522c0576/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 87.4,
@@ -240,7 +235,22 @@
           "fnVoxels": 1112,
           "fpVoxels": 319
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 87.4,
+        "Chiasm": 34.9,
+        "Mandible": 86.2,
+        "OpticNerve_L": 75.0,
+        "OpticNerve_R": 70.3,
+        "Parotid_L": 81.9,
+        "Parotid_R": 82.3,
+        "Submandibular_L": 70.3,
+        "Submandibular_R": 73.8
+      },
+      "gt3d": "pddca-viz/gt/0522c0576/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0576/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0576/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0576/slice_viewer.html"
     },
     {
       "id": "0522c0598",
@@ -248,17 +258,7 @@
       "pred": "pddca-viz/0522c0598/pred.png",
       "fn": "pddca-viz/0522c0598/fn.png",
       "scene3d": "pddca-viz/0522c0598/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 86.5,
-        "Chiasm": 57.3,
-        "Mandible": 81.4,
-        "OpticNerve_L": 63.5,
-        "OpticNerve_R": 70.8,
-        "Parotid_L": 88.2,
-        "Parotid_R": 90.3,
-        "Submandibular_L": 75.8,
-        "Submandibular_R": 72.4
-      },
+      "pred3d": "pddca-viz/0522c0598/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 86.5,
@@ -332,7 +332,22 @@
           "fnVoxels": 680,
           "fpVoxels": 182
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 86.5,
+        "Chiasm": 57.3,
+        "Mandible": 81.4,
+        "OpticNerve_L": 63.5,
+        "OpticNerve_R": 70.8,
+        "Parotid_L": 88.2,
+        "Parotid_R": 90.3,
+        "Submandibular_L": 75.8,
+        "Submandibular_R": 72.4
+      },
+      "gt3d": "pddca-viz/gt/0522c0598/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0598/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0598/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0598/slice_viewer.html"
     },
     {
       "id": "0522c0659",
@@ -340,17 +355,7 @@
       "pred": "pddca-viz/0522c0659/pred.png",
       "fn": "pddca-viz/0522c0659/fn.png",
       "scene3d": "pddca-viz/0522c0659/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 88.6,
-        "Chiasm": 37.6,
-        "Mandible": 88.2,
-        "OpticNerve_L": 51.1,
-        "OpticNerve_R": 52.2,
-        "Parotid_L": 79.7,
-        "Parotid_R": 71.5,
-        "Submandibular_L": 70.0,
-        "Submandibular_R": 70.6
-      },
+      "pred3d": "pddca-viz/0522c0659/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 88.6,
@@ -424,7 +429,22 @@
           "fnVoxels": 622,
           "fpVoxels": 643
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 88.6,
+        "Chiasm": 37.6,
+        "Mandible": 88.2,
+        "OpticNerve_L": 51.1,
+        "OpticNerve_R": 52.2,
+        "Parotid_L": 79.7,
+        "Parotid_R": 71.5,
+        "Submandibular_L": 70.0,
+        "Submandibular_R": 70.6
+      },
+      "gt3d": "pddca-viz/gt/0522c0659/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0659/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0659/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0659/slice_viewer.html"
     },
     {
       "id": "0522c0661",
@@ -432,17 +452,7 @@
       "pred": "pddca-viz/0522c0661/pred.png",
       "fn": "pddca-viz/0522c0661/fn.png",
       "scene3d": "pddca-viz/0522c0661/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 85.7,
-        "Chiasm": 56.8,
-        "Mandible": 88.1,
-        "OpticNerve_L": 35.4,
-        "OpticNerve_R": 46.6,
-        "Parotid_L": 88.1,
-        "Parotid_R": 89.0,
-        "Submandibular_L": 72.3,
-        "Submandibular_R": 65.1
-      },
+      "pred3d": "pddca-viz/0522c0661/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 85.7,
@@ -516,7 +526,22 @@
           "fnVoxels": 1351,
           "fpVoxels": 327
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 85.7,
+        "Chiasm": 56.8,
+        "Mandible": 88.1,
+        "OpticNerve_L": 35.4,
+        "OpticNerve_R": 46.6,
+        "Parotid_L": 88.1,
+        "Parotid_R": 89.0,
+        "Submandibular_L": 72.3,
+        "Submandibular_R": 65.1
+      },
+      "gt3d": "pddca-viz/gt/0522c0661/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0661/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0661/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0661/slice_viewer.html"
     },
     {
       "id": "0522c0667",
@@ -524,17 +549,7 @@
       "pred": "pddca-viz/0522c0667/pred.png",
       "fn": "pddca-viz/0522c0667/fn.png",
       "scene3d": "pddca-viz/0522c0667/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 79.9,
-        "Chiasm": 41.1,
-        "Mandible": 87.4,
-        "OpticNerve_L": 55.9,
-        "OpticNerve_R": 51.4,
-        "Parotid_L": 84.1,
-        "Parotid_R": 86.5,
-        "Submandibular_L": 64.7,
-        "Submandibular_R": 73.2
-      },
+      "pred3d": "pddca-viz/0522c0667/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 79.9,
@@ -608,7 +623,22 @@
           "fnVoxels": 964,
           "fpVoxels": 123
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 79.9,
+        "Chiasm": 41.1,
+        "Mandible": 87.4,
+        "OpticNerve_L": 55.9,
+        "OpticNerve_R": 51.4,
+        "Parotid_L": 84.1,
+        "Parotid_R": 86.5,
+        "Submandibular_L": 64.7,
+        "Submandibular_R": 73.2
+      },
+      "gt3d": "pddca-viz/gt/0522c0667/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0667/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0667/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0667/slice_viewer.html"
     },
     {
       "id": "0522c0669",
@@ -616,17 +646,7 @@
       "pred": "pddca-viz/0522c0669/pred.png",
       "fn": "pddca-viz/0522c0669/fn.png",
       "scene3d": "pddca-viz/0522c0669/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 85.9,
-        "Chiasm": 56.2,
-        "Mandible": 88.7,
-        "OpticNerve_L": 51.0,
-        "OpticNerve_R": 55.2,
-        "Parotid_L": 83.9,
-        "Parotid_R": 83.1,
-        "Submandibular_L": 65.4,
-        "Submandibular_R": 67.3
-      },
+      "pred3d": "pddca-viz/0522c0669/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 85.9,
@@ -700,7 +720,22 @@
           "fnVoxels": 946,
           "fpVoxels": 27
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 85.9,
+        "Chiasm": 56.2,
+        "Mandible": 88.7,
+        "OpticNerve_L": 51.0,
+        "OpticNerve_R": 55.2,
+        "Parotid_L": 83.9,
+        "Parotid_R": 83.1,
+        "Submandibular_L": 65.4,
+        "Submandibular_R": 67.3
+      },
+      "gt3d": "pddca-viz/gt/0522c0669/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0669/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0669/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0669/slice_viewer.html"
     },
     {
       "id": "0522c0708",
@@ -708,17 +743,7 @@
       "pred": "pddca-viz/0522c0708/pred.png",
       "fn": "pddca-viz/0522c0708/fn.png",
       "scene3d": "pddca-viz/0522c0708/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 87.4,
-        "Chiasm": 48.9,
-        "Mandible": 86.9,
-        "OpticNerve_L": 60.1,
-        "OpticNerve_R": 55.9,
-        "Parotid_L": 86.5,
-        "Parotid_R": 88.6,
-        "Submandibular_L": 74.4,
-        "Submandibular_R": 68.9
-      },
+      "pred3d": "pddca-viz/0522c0708/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 87.4,
@@ -792,7 +817,22 @@
           "fnVoxels": 694,
           "fpVoxels": 301
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 87.4,
+        "Chiasm": 48.9,
+        "Mandible": 86.9,
+        "OpticNerve_L": 60.1,
+        "OpticNerve_R": 55.9,
+        "Parotid_L": 86.5,
+        "Parotid_R": 88.6,
+        "Submandibular_L": 74.4,
+        "Submandibular_R": 68.9
+      },
+      "gt3d": "pddca-viz/gt/0522c0708/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0708/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0708/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0708/slice_viewer.html"
     },
     {
       "id": "0522c0727",
@@ -800,17 +840,7 @@
       "pred": "pddca-viz/0522c0727/pred.png",
       "fn": "pddca-viz/0522c0727/fn.png",
       "scene3d": "pddca-viz/0522c0727/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 83.0,
-        "Chiasm": 33.5,
-        "Mandible": 87.6,
-        "OpticNerve_L": 60.2,
-        "OpticNerve_R": 73.2,
-        "Parotid_L": 85.2,
-        "Parotid_R": 82.2,
-        "Submandibular_L": 75.0,
-        "Submandibular_R": 74.7
-      },
+      "pred3d": "pddca-viz/0522c0727/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 83.0,
@@ -884,7 +914,22 @@
           "fnVoxels": 613,
           "fpVoxels": 179
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 83.0,
+        "Chiasm": 33.5,
+        "Mandible": 87.6,
+        "OpticNerve_L": 60.2,
+        "OpticNerve_R": 73.2,
+        "Parotid_L": 85.2,
+        "Parotid_R": 82.2,
+        "Submandibular_L": 75.0,
+        "Submandibular_R": 74.7
+      },
+      "gt3d": "pddca-viz/gt/0522c0727/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0727/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0727/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0727/slice_viewer.html"
     },
     {
       "id": "0522c0746",
@@ -892,17 +937,7 @@
       "pred": "pddca-viz/0522c0746/pred.png",
       "fn": "pddca-viz/0522c0746/fn.png",
       "scene3d": "pddca-viz/0522c0746/scene_3d.html",
-      "dicePercent": {
-        "BrainStem": 87.2,
-        "Chiasm": 10.6,
-        "Mandible": 83.9,
-        "OpticNerve_L": 51.6,
-        "OpticNerve_R": 50.6,
-        "Parotid_L": 84.0,
-        "Parotid_R": 73.2,
-        "Submandibular_L": 72.7,
-        "Submandibular_R": 60.9
-      },
+      "pred3d": "pddca-viz/0522c0746/pred_3d.html",
       "organMetrics": {
         "BrainStem": {
           "dicePercent": 87.2,
@@ -976,7 +1011,22 @@
           "fnVoxels": 1858,
           "fpVoxels": 25
         }
-      }
+      },
+      "dicePercent": {
+        "BrainStem": 87.2,
+        "Chiasm": 10.6,
+        "Mandible": 83.9,
+        "OpticNerve_L": 51.6,
+        "OpticNerve_R": 50.6,
+        "Parotid_L": 84.0,
+        "Parotid_R": 73.2,
+        "Submandibular_L": 72.7,
+        "Submandibular_R": 60.9
+      },
+      "gt3d": "pddca-viz/gt/0522c0746/scene_3d.html",
+      "fn3d": "pddca-viz/0522c0746/fn_3d.html",
+      "fp3d": "pddca-viz/0522c0746/fp_3d.html",
+      "sliceViewer": "pddca-viz/0522c0746/slice_viewer.html"
     }
   ]
 }

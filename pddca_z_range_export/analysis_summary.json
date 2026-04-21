@@ -1,0 +1,139 @@
+{
+  "source_csv": "/Users/olcaycoban/Desktop/pddca/pddca_z_range_export/pddca_organ_z_ranges.csv",
+  "n_patients": 42,
+  "slice_axis_note": "z_min/z_max: img.numpy [:,:,k] ile uyumlu k; küçük k genelde inferiyor, büyük k süperiyor (tipik baş-boyun CT)",
+  "organ_aggregate": {
+    "BrainStem": {
+      "n_patients_present": 42,
+      "z_min_mean": 89.57142857142857,
+      "z_min_std": 22.929523898286476,
+      "z_max_mean": 111.71428571428571,
+      "z_max_std": 25.98243845396227,
+      "z_mid_mean": 100.64285714285714,
+      "z_mid_std": 24.37994120380616,
+      "z_span_mean": 23.142857142857142
+    },
+    "Chiasm": {
+      "n_patients_present": 42,
+      "z_min_mean": 113.57142857142857,
+      "z_min_std": 26.255910235595557,
+      "z_max_mean": 114.16666666666667,
+      "z_max_std": 26.198041880529615,
+      "z_mid_mean": 113.86904761904762,
+      "z_mid_std": 26.225583190941514,
+      "z_span_mean": 1.5952380952380953
+    },
+    "Mandible": {
+      "n_patients_present": 40,
+      "z_min_mean": 73.65,
+      "z_min_std": 21.229575403075582,
+      "z_max_mean": 103.55,
+      "z_max_std": 24.669040079855936,
+      "z_mid_mean": 88.6,
+      "z_mid_std": 22.814806258554654,
+      "z_span_mean": 30.9
+    },
+    "OpticNerve_L": {
+      "n_patients_present": 42,
+      "z_min_mean": 112.97619047619048,
+      "z_min_std": 26.3609912238576,
+      "z_max_mean": 115.71428571428571,
+      "z_max_std": 27.153839699993846,
+      "z_mid_mean": 114.3452380952381,
+      "z_mid_std": 26.750082766053428,
+      "z_span_mean": 3.738095238095238
+    },
+    "OpticNerve_R": {
+      "n_patients_present": 42,
+      "z_min_mean": 113.04761904761905,
+      "z_min_std": 26.333649419588138,
+      "z_max_mean": 115.5952380952381,
+      "z_max_std": 27.437787299509917,
+      "z_mid_mean": 114.32142857142857,
+      "z_mid_std": 26.87795847098407,
+      "z_span_mean": 3.5476190476190474
+    },
+    "Parotid_L": {
+      "n_patients_present": 42,
+      "z_min_mean": 77.88095238095238,
+      "z_min_std": 22.385973810873,
+      "z_max_mean": 98.4047619047619,
+      "z_max_std": 24.367170561258035,
+      "z_mid_mean": 88.14285714285714,
+      "z_mid_std": 23.262889349904995,
+      "z_span_mean": 21.523809523809526
+    },
+    "Parotid_R": {
+      "n_patients_present": 42,
+      "z_min_mean": 77.85714285714286,
+      "z_min_std": 22.02057954153223,
+      "z_max_mean": 98.47619047619048,
+      "z_max_std": 24.24895078971167,
+      "z_mid_mean": 88.16666666666667,
+      "z_mid_std": 23.017932210605547,
+      "z_span_mean": 21.61904761904762
+    },
+    "Submandibular_L": {
+      "n_patients_present": 38,
+      "z_min_mean": 67.84210526315789,
+      "z_min_std": 21.76598675070495,
+      "z_max_mean": 81.39473684210526,
+      "z_max_std": 22.145147078266728,
+      "z_mid_mean": 74.61842105263158,
+      "z_mid_std": 21.917669723038383,
+      "z_span_mean": 14.552631578947368
+    },
+    "Submandibular_R": {
+      "n_patients_present": 35,
+      "z_min_mean": 66.25714285714285,
+      "z_min_std": 21.284270437748784,
+      "z_max_mean": 80.31428571428572,
+      "z_max_std": 21.35384168298175,
+      "z_mid_mean": 73.28571428571429,
+      "z_mid_std": 21.278367126333382,
+      "z_span_mean": 15.057142857142857
+    }
+  },
+  "chiasm_optic_nerve_focus": {
+    "structures": [
+      "Chiasm",
+      "OpticNerve_L",
+      "OpticNerve_R"
+    ],
+    "n_all_three_present": 42,
+    "percent_all_three": 100.0,
+    "union_z_min_describe": {
+      "count": 42.0,
+      "mean": 112.78571428571429,
+      "std": 26.38600489569046,
+      "min": 72.0,
+      "25%": 96.25,
+      "50%": 107.0,
+      "75%": 118.75,
+      "max": 204.0
+    },
+    "union_z_max_describe": {
+      "count": 42.0,
+      "mean": 116.11904761904762,
+      "std": 27.274755934122854,
+      "min": 74.0,
+      "25%": 98.75,
+      "50%": 109.5,
+      "75%": 122.0,
+      "max": 207.0
+    },
+    "percentile_window_p5_p95": {
+      "pooled_z_min_p_low": 85.25,
+      "pooled_z_min_p_high": 160.0,
+      "pooled_z_max_p_low": 87.25,
+      "pooled_z_max_p_high": 164.75,
+      "recommended_slice_lower_bound": 85,
+      "recommended_slice_upper_bound": 165
+    }
+  },
+  "output_files": {
+    "organ_aggregate_csv": "/Users/olcaycoban/Desktop/pddca/pddca_z_range_export/analysis_organ_aggregate.csv",
+    "per_patient_wide_csv": "/Users/olcaycoban/Desktop/pddca/pddca_z_range_export/analysis_per_patient_wide.csv",
+    "chiasm_optic_detail_csv": "/Users/olcaycoban/Desktop/pddca/pddca_z_range_export/analysis_chiasm_optic_nerve_detail.csv"
+  }
+}
